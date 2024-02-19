@@ -1,0 +1,28 @@
+Video-3 :-
+1. Learn about how to create our own scripts in package.json for get the package.json file first type npm init in your project folder.
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hello.js"    // this is my own script to run hello.js
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+in cmd type npm start -> it runs the hello.js file.
+
+2. NodeJs does not contains UI part of JavaScript rather than use for creating the server.
+
+Video-4:-
+1. Learn about modules in nodeJS and how moduler programming done.
+2. If you want to import the module use require.
+3. If you want to export the module use module.exports ={a,b} // here a and b are module.
+4. Another way to export the module are export.a and export.b.
+5. Learn about how to destructure the modules and when you import the module.
+
+Video-5:-
+1. Learn about file handling in NodeJS

@@ -26,3 +26,8 @@ fs.cpSync("./test.txt", "./copyTest.txt");
 
 // delete the file or unlink with your current project
 fs.unlinkSync("./copyTest.txt");
+
+const os = require("os");
+console.log(os.cpus().length);
+
+// at min in node js we have 4 thread means 4 core and max depend on your cpu machine core.

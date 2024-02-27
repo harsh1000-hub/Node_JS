@@ -26,3 +26,13 @@ Video-4:-
 
 Video-5:-
 1. Learn about file handling in NodeJS
+
+Video-6:-
+1. Learn about node js architecture.
+2. Learn about new module that is require('os')  this will give you a information regarding your operating system.
+
+Video-7:-
+1. create HTTP web server.
+2. Learn about how to response when client hit the server.
+3. For creating the server we use http method that is called as createServer and a pass the handle that (req,res) to handle the server request and response.
+4. And always use non-blocking request like appendFile not use appendFileSync because sync task block the other task.
